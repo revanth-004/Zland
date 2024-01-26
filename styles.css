@@ -492,7 +492,7 @@ height: 272px;
  
     font-size: 10px;
     margin-left: 20px;
-    margin-top: -5px;
+    margin-top: -3px;
 }
 .navbar-logo>img{
     width: 40px;
@@ -502,7 +502,7 @@ height: 272px;
 
 .navbar-items {
     display: flex;
-    gap: 60vw;
+    gap: 50vw;
     list-style: none;
     width: 100vw;
 } 
@@ -584,7 +584,7 @@ height: 272px;
     height: 140px;
     flex-shrink: 0;
     position: absolute;
-    top: 35vh;
+    top: 40vh;
     left: 0%;
     z-index: -2;
 }
@@ -627,7 +627,7 @@ height: 272px;
 }
 
 .by {
-    margin-left: 200px;
+    margin-left: 160px;
 }
 
 .problem-title {
