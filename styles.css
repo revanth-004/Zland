@@ -1,3 +1,4 @@
+
 .navbar {
     width: 100vw;
     background: var(--Neutral-Colors-100, #FFF);
@@ -102,7 +103,7 @@
     line-height: 20px;
     /* 100% */
     display: inline;
-    width: 280px;
+    width: 300px;
     align-items: flex-start;
     border: none;
     margin-top: 30px;
@@ -127,20 +128,22 @@
 }
 
 .title-img {
-    width: 539px;
-    height: 483px;
+    width: 239px;
+    height: 183px;
     transform: rotate(40deg);
     flex-shrink: 0;
     position: absolute;
-    top: 15vh;
-    left: 55%;
+    top: 11svh;
+    left: 70%;
     z-index: -2;
 }
 
 #problem {
     height: 100vh;
     display: flex;
+   margin-top: 5%;
     flex-wrap: wrap;
+    background: #f3f3f3;
 }
 
 .problem-video {
@@ -205,7 +208,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 15%;
-    background: #E4F3FF;
+    
 
 }
 
@@ -250,6 +253,7 @@
     font-weight: 500;
     line-height: normal;
     width: 272px;
+    text-align: center;
 }
 
 .center>img {
@@ -257,7 +261,7 @@
     height: 110px;
 }
 
-.testimonals-container {
+.testimonals-container1 {
     width: 842.592px;
     height: 313.059px;
     border-radius: 25.254px;
@@ -311,95 +315,153 @@ font-style: normal;
 font-weight: 800;
 line-height: 14.205px; /* 75% */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-    .navbar-logo {
-        width: 30px;
-        height: 20px;
-    }
-
-    .download-btn {
-        display: inline-flex;
-        padding: 14px 30px;
-        border-radius: 100px;
-        outline: none;
-        border: none;
-        color: #FFF;
-        text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: "DM Sans";
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 20px;
-        /* 100% */
-        background: #418FF4;
-    }
-
-    .navbar-items {
-        display: flex;
-        gap: 60vw;
-        list-style: none;
-        width: 100vw;
-    }
+.testimonals-heading{
+    text-align: center;
+    color: #6F6C90;
+font-family: "DM Sans";
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#features{
+    height: 100vh;
+}
+#faq{
+    height: 100vh;
 }
 
-@media screen and (max-device-width: 640px) {
-    .navbar-logo {
-        width: 20px;
-        height: 10px;
-    }
 
-    .download-btn {
-        display: inline-flex;
-        padding: 14px 20px;
-        border-radius: 100px;
-        outline: none;
-        border: none;
-        color: #FFF;
-        text-align: center;
-        font-feature-settings: 'clig' off, 'liga' off;
-        font-family: "DM Sans";
-        font-size: 14px;
-        width: 160px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 20px;
-        /* 100% */
-        background: #418FF4;
-    }
+.faq-heading{
+    color: #6F6C90;
+font-family: "DM Sans";
+font-size: 50px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.faq-container {
+  margin: 0 auto;
+  max-width: 70vw;
+}
 
-    .navbar-items {
-        display: flex;
-        gap: 40vw;
-        list-style: none;
-        width: 100vw;
-    }
+.faq {
+  background-color: transparent;
+  border: 1px solid #9fa4a8;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+  transition: 0.3s ease;
+}
+i{
+    color: #418FF4;
+}
+.faq.active {
+  background-color: #fff;
+  border-radius: 14px;
+border: 2px solid #418FF4;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  color: #2ecc71;
+  content: "\f075";
+  font-family: "Font Awesome 6 Free";
+  font-size: clamp(20px,7rem,8rem);
+  left: 20px;
+  opacity: 0.2;
+  position: absolute;
+  top: 20px;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  left: -30px;
+  top: -10px;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 35px 0 0;
+  color: var(--Neutral-800, #170F49);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Headings/Typography Size 4 */
+font-family: "DM Sans";
+font-size: clamp(14px,22px,24px);
+font-style: normal;
+font-weight: 500;
+line-height: 28px; /* 127.273% */
+}
+
+.faq-text {
+  display: none;
+  color: var(--Neutral-600, #6F6C90);
+font-feature-settings: 'clig' off, 'liga' off;
+
+/* Paragraph/Default */
+font-family: "DM Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+  margin: 30px 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
+
+.faq-toggle {
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  font-size: 1rem;
+  height: 30px;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 30px;
+}
+.faq-toggle .fa-times,
+.faq.active .faq-toggle .fa-chevron-down {
+  display: none;
+}
+
+.faq.active .faq-toggle .fa-times {
+  color: #fff;
+  display: block;
+}
+
+.faq-toggle .fa-chevron-down {
+  display: block;
+}
+
+.faq.active .faq-toggle {
+  background-color: #9fa4a8;
+}
+.faq-toggle>img{
+    width: 50px;
+    height: 50px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 5vh;
+}
+.footer{
+    background: #62B7FD;
+    width: 100vw;
+height: 272px;
 }
