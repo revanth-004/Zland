@@ -4,18 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
   </head>
   <body>
     <section id="title">
       <div class="navbar">
         <ul class="navbar-items">
           <li class="navbar-logo">
-            <img src="zland-logo.svg" alt="land-logo" />
+            <img src="image 1.svg" alt="land-logo" />
+            <h1>Zland</h1>
           </li>
           <li class="navbar-cta">
             <button class="download-btn">
               Download now
-              <svg
+              <svg class="down-svg"
                 xmlns="http://www.w3.org/2000/svg"
                 width="14"
                 height="17"
@@ -35,13 +41,13 @@
     <section id="home">
       <div class="title-container">
         <h1 class="title-text">
-          We Change the Way How You Find, Trust and Pay For Your New Lands with
+          We Change the Way <br> How You Find, Trust and Pay <br> For Your New Lands with <br>
           AI Technology
         </h1>
-        <p class="title-text">
+        <p class="subtitle-text">
           Do All Your Land Buying Process From a Single App
         </p>
-        <button>Download App Now</button>
+        <button> <img class="play" src="./Google Play logo.svg" alt=""> Download App Now</button>
         <img src="rating.png" alt="" class="rating" />
       </div>
       <div class="title-img">
@@ -54,38 +60,31 @@
       </div>
       <div class="problem-text">
         <h1 class="problem-title">Freedom for Faith</h1>
-        <p class="problem-text"></p>
+        <p class="problem-text1">Zland allows anyone to freely  take any land decisions by  avoiding frustrating tractional barriers. 
+        </p>
+        <div class="by">
         <h3 class="founder">Ganeshan Sudhakar</h3>
-        <p class="designation"></p>
+        <p class="designation"> Zland India</p>
+      </div>
       </div>
     </section>
     <section id="benefits">
       <h1 class="benifits-heading">Benifits</h1>
       <div class="benifits-content">
-        <div class="benifits-icons">
-          <img class="trust-icon" src="" alt="" />
-          <img class="line" src="" alt="" />
-          <img class="fast-icon" src="" alt="" />
-          <img class="line" src="" alt="" />
-          <img class="free-icon" src="" alt="" />
+        <div class="center">
+          <img src="./Group 6.svg" alt="">
+          <div class="text">More Trusted</div>
+          <div class="para">Ensuring a secure and reliable platform for buying and selling properties.</div>
         </div>
-        <div class="benifits-trust">
-          <h1 class="trust-title">More Trusted</h1>
-          <p class="trust-text">
-            Ensuring a secure and reliable platform for buying and selling
-            properties.
-          </p>
+        <div class="center">
+          <img src="./Group 6.svg" alt="">
+          <div class="text">More Trusted</div>
+          <div class="para">Ensuring a secure and reliable platform for buying and selling properties.</div>
         </div>
-        <div class="benifits-fast">
-          <h1 class="fast-title">Much Faster</h1>
-          <p class="fast-text">Experience speed in real estate processes</p>
-        </div>
-        <div class="benifits-free">
-          <h1 class="free-title">Always Free</h1>
-          <p class="free-text">
-            Swift, streamlined processes for an efficient real estate
-            experience, benefiting both buyers and sellers.
-          </p>
+        <div class="center">
+          <img src="./Group 6.svg" alt="">
+          <div class="text">More Trusted</div>
+          <div class="para">Ensuring a secure and reliable platform for buying and selling properties.</div>
         </div>
       </div>
     </section>
@@ -93,8 +92,7 @@
       <h1 class="testimonals-heading">Testimonals</h1>
       <div class="testimonals-container">
         <div class="testimonals-card">
-          <div class="card-profile">
-            <img src="" alt="" class="card-img" />
+            <img src="./dp.jpeg" alt="" class="card-img" />
           </div>
           <div class="card-info">
             <h1 class="card-title">Our happy customer</h1>
@@ -106,6 +104,23 @@
             <h3 class="card-name">-Patricia O'Keefe</h3>
           </div>
         </div>
+        <div class="testimonals-container">
+          <div class="testimonals-card">
+              <img src="./dp.jpeg" alt="" class="card-img" />
+            </div>
+            <div class="card-info">
+              <h1 class="card-title">Our happy customer</h1>
+              <p class="card-text">
+                "Z Land India's AI made finding my perfect land a breeze, and the
+                transparent listings ensured a smooth process. Trustworthy and
+                efficient – highly recommended!"
+              </p>
+              <h3 class="card-name">-Patricia O'Keefe</h3>
+            </div>
+          </div>
+        
+                
+                
       </div>
     </section>
     <section id="features"></section>
@@ -171,5 +186,28 @@
         <img src="google-play.svg" alt="" />
       </div>
     </footer>
+    <script>$(document).ready(function () {
+      var silder = $(".owl-carousel");
+      silder.owlCarousel({
+          autoplay: true,
+          autoplayTimeout: 3000,
+          autoplayHoverPause: false,
+          items: 1,
+          stagePadding: 20,
+          center: true,
+          nav: false,
+          margin: 50,
+          dots: true,
+          loop: true,
+          responsive: {
+              0: { items: 1 },
+              480: { items: 2 },
+              575: { items: 2 },
+              768: { items: 2 },
+              991: { items: 3 },
+              1200: { items: 4 }
+          }
+      });
+  });</script>
   </body>
 </html>
