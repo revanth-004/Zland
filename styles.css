@@ -129,7 +129,7 @@ body{
     height: 46.63px;
 }
 
-.title-img {
+.title-img >img{
     width: 239px;
     height: 183px;
     transform: rotate(40deg);
@@ -534,6 +534,7 @@ line-height: normal;
 }
 .navbar{
     height: 9vh;
+    width: 110vw;
 }
 .navbar-logo>h1 {
  
@@ -549,7 +550,7 @@ line-height: normal;
 
 .navbar-items {
     display: flex;
-    gap: 50vw;
+    gap: 60vw;
     list-style: none;
     width: 100vw;
 } 
@@ -558,7 +559,7 @@ line-height: normal;
     display: flex;
     flex-direction: column;
     width: 70%;
-    margin-left: 15%;
+    margin-left: 20%;
     height: fit-content;
     align-items: center;
     position: relative;
@@ -633,7 +634,7 @@ line-height: normal;
     flex-shrink: 0;
     position: absolute;
     top: 35vh;
-    left: 10%;
+    left: 35%;
     z-index: -2;
 }
 
@@ -642,6 +643,7 @@ line-height: normal;
    margin-top: 50%;
    height: fit-content;
     flex-wrap: wrap;
+    width: 110vw;
     background: #f3f3f3;
 }
 
@@ -652,7 +654,7 @@ line-height: normal;
 }
 .problem-video >img {
 
-    width: 90vw;
+    width: 100vw;
     height: 200px;
 }
 
@@ -711,6 +713,7 @@ line-height: normal;
 #benefits {
     height: fit-content;
     margin-top: 40px;
+    width: 110vw;
 
 }
 .benifits-heading {
@@ -763,8 +766,8 @@ line-height: normal;
 text-align: center;
 }
 .faq-container {
-  margin: 0 auto;
-  max-width: 70vw;
+  margin-left: 20px;
+  max-width: 95vw;
 }
 
 .faq {
@@ -873,7 +876,7 @@ line-height: 30px; /* 166.667% */
 }
 .footer{
     background: #62B7FD;
-    width: 100vw;
+    width: 110vw;
 height: 272px;
 }
 
@@ -932,6 +935,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+
 .testimonals-heading{
     text-align: center;
     color: #6F6C90;
@@ -947,7 +951,7 @@ line-height: normal;
     border-radius: 25.254px;
     background: #FFF;
     display: flex;
-    margin-left: 5vw;
+    margin-left: 10vw;
     margin-top: 5vh;
     box-shadow: 3.946px 7.892px 23.676px 0px rgba(0, 0, 0, 0.25);
 }
