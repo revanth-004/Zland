@@ -486,13 +486,13 @@ height: 272px;
     height: 10px;
 }
 .navbar{
-    height: 7vh;
+    height: 9vh;
 }
 .navbar-logo>h1 {
  
     font-size: 10px;
     margin-left: 20px;
-    margin-top: -3px;
+    margin-top: -6px;
 }
 .navbar-logo>img{
     width: 40px;
@@ -584,7 +584,7 @@ height: 272px;
     height: 140px;
     flex-shrink: 0;
     position: absolute;
-    top: 40vh;
+    top: 50vh;
     left: 0%;
     z-index: -2;
 }
