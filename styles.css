@@ -467,36 +467,234 @@ height: 272px;
 
 
 @media (min-width: 320px) and (max-width: 480px){
-   
+   *{
+    margin: 0;
+    padding: 0;
+   }
 .download-btn {
-    padding: 12px 16px; /* Adjust padding for smaller screens */
-    font-size: 16px;
-    width: 180px;
+    padding: 8px 10px; /* Adjust padding for smaller screens */
+    font-size: 8px;
+    width: 100px;
     line-height: 10px;
+    margin-top: 3vh;
 }
 
 .down-svg {
     margin-left: 10px;
+    width: 10px;
+    height: 10px;
 }
 
 .navbar-logo>h1 {
-    color: var(--Neutral-800, #170F49);
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "DM Sans";
-    font-size: 19.776px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24.522px;
-    /* 124% */
-    text-align: center;
-    margin: 0px;
-    margin-left: 0.5vw;
+ 
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 0;
+}
+.navbar-logo{
+    width: 20px;
+    height: 20px;
 }
 
 .navbar-items {
     display: flex;
-    gap: 70vw;
+    gap: 60vw;
     list-style: none;
     width: 100vw;
 } 
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 20px;
+    position: relative;
+}
+
+.title-text {
+    color: var(--Neutral-800, #170F49);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Headings/Typography Size 1 */
+    font-family: "DM Sans";
+    font-size: 13px;
+    font-style: normal;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    font-weight: 700;
+    line-height: 15px;
+    /* 124% */
+}
+
+.subtitle-text {
+    margin-top: -5px;
+    color: var(--Neutral-600, #6F6C90);
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Paragraph/Default */
+    font-family: "DM Sans";
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.title-container>button {
+   
+    padding: 2px 2px;
+    padding-left: 23px;
+    border-radius: 15px;
+    font-size: 6px;
+    width: 90px;
+    align-items: flex-start;
+    border: none;
+    margin-top: 0px;
+}
+
+.play {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+#home {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+}
+
+.rating {
+    width: 70px;
+    margin-top: 5px;
+    height: 15px;
+}
+#home{
+    height: fit-content;
+}
+.title-img > img{
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 15vh;
+    left: -10%;
+    z-index: -2;
+}
+
+#problem {
+    height: fit-content;
+    display: flex;
+   margin-top: 5%;
+    flex-wrap: wrap;
+    background: #f3f3f3;
+}
+
+.problem-video {
+
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+.problem-video >img {
+
+    width: 90vw;
+    height: 200px;
+}
+
+.problem-text {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.problem-text1 {
+    margin-top: 10px;
+    color: #6F6C90;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 363px;
+    height: 165px;
+    flex-shrink: 0;
+}
+
+.by {
+    margin-left: 380px;
+}
+
+.problem-title {
+    color: #000;
+    font-family: "DM Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.founder {
+    color: #000;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.designation {
+    color: #6F6C90;
+    font-family: "DM Sans";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+#benefits {
+    height: fit-content;
+    margin-top: 20px;
+
+}
+.benifits-heading {
+    text-align: center;
+    color: #6F6C90;
+    font-family: "DM Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.benifits-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.center>.text {
+    color: #4A4E54;
+    font-family: "DM Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.center>.para {
+    color: #848484;
+    text-align: justify;
+    font-family: "DM Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 272px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 }
