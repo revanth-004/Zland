@@ -1,99 +1,105 @@
 *{
-    margin: 0px;
-    box-sizing: border-box;
-    padding: 0px;
-    
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  
 }
-    #benefits{
-        height: fit-content;
-        width: 100vw;
-        margin-bottom: 10vh;
+#benefits{
+  height: fit-content;
+  width: 100vw;
+  margin-bottom: 10vh;
+}
+.benifits-heading{
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  text-align: center;
+font-family: "DM Sans";
+font-size: 3rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.benifits-content{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+}
+.benifits-content > .center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4vh;
+  width: 30vw;
+  margin-top: 4vh;
+}
+.para{
+  color: #3c3c3c;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 30vw;
+
+}
+.text{
+  color: #3c3c3c;
+font-family: "DM Sans";
+font-size: 2rem;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: center;
+}
+.para1{
+  display: flex;
+  
+  width: 100vw;
+  justify-content: space-around;
+  
+}
+    @media (min-width: 320px) and (max-width: 480px){
+      * {
+        margin: 0;
+        padding: 0;
       }
-      .benifits-heading{
-        text-align: center;
-        margin-top: 5vh;
-        margin-bottom: 10vh;
-        text-align: center;
-      font-family: "DM Sans";
-      font-size: 3rem;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      
-      }
-      .benifits-content{
-        justify-content: center;
+      .beneflex{
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        justify-content:space-between;
         width: 100vw;
-      }
-      .benifits-content > .center{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 4vh;
-        width: 30vw;
-        margin-top: 4vh;
-        margin-bottom: 4vh;
-      }
-      .para{
-        color: #3c3c3c;
-        text-align: center;
-        font-family: "DM Sans";
-        font-size: 1rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        width: 30vw;
-      
-      }
-      .text{
-        color: #4A4E54;
-      font-family: "DM Sans";
-      font-size: 2rem;
-      font-style: normal;
-      font-weight: 500;
-      line-height: normal;
-      text-align: center;
-      }
-      .para1{
-        display: flex;
-        
-        width: 100vw;
-        justify-content: space-around;
-        
-      }
-      @media (min-width: 320px) and (max-width: 480px){
-        .beneflex{
-            display: flex;
-        }
-        
-      .para1{
-        display: flex;
-        width: 100vw;
-        justify-content: space-around;
-        flex-direction: column;
-        
-      }
-      .benifits-content{
-        justify-content: center;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100vw;
-      }
-      .benifits-heading{
-        font-size: 1.5rem;
-      }
-      .text{
-        font-size: 1rem;
-      }
-      .para{
-        margin-top: 0;
-        font-size: 0.7rem;
-        text-align: justify;
-      }
-      }
+    }
+    
+    .para1{
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    }
+    .benifits-content{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    }
+    .benifits-heading{
+    font-size: 1.5rem;
+    }
+    .text{
+    font-size: 1rem;
+    }
+    .para{
+    margin-top: -1vh;
+    font-size: 1rem;
+    text-align: left;
+    width: 50vw;
+    }
+    }

@@ -272,71 +272,27 @@ text-align: center;
   
 }
 
-.testimonals-container1 {
-  transform: translate(35%, 10%);
-  margin: 80px 10px;
-  width: 842.592px;
-  height: 313.059px;
-  border-radius: 25.254px;
-  background: #fff;
-  display: flex;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
-}
 
-.testimonals-card {
-  width: 278.236px;
-  height: 313.445px;
-  flex-shrink: 0;
-  border-radius: 25.254px 165.335px 0px 25.254px;
-  background: #418ff4;
-}
 
-.card-image {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  border: 5.524px solid #fff;
-  margin: 60px 40px;
-}
 .flex-features{
-margin-left: 10vw;
-margin-right: 10vw;
-    width: 85vw;
+  margin-left: 7vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+    grid-column-gap: 5vw;
 
 }
 .cont1{
   margin-top: 3vh;
 margin-bottom: 3vh;
-color: #4a4e54;
+color: #3c3c3c;
 font-family: "DM Sans";
-font-size: 30px;
+font-size: 1.5rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 display: flex;
 gap: 4vw;
-}
-.card-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin-left: 50px;
-}
-.card-title {
-  color: var(--Dark, #050505);
-  font-family: Manrope;
-  font-size: 35.514px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 37.881px; /* 106.667% */
-}
-.card-text {
-  color: #6f6c90;
-  font-family: Manrope;
-  font-size: 18.151px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 37.881px; /* 208.696% */
 }
 .card-name {
   color: #222;
@@ -366,6 +322,7 @@ gap: 4vw;
 }
 #features {
   height: 100vh;
+  width: 100vw;
 }
 #faq {
   height: fit-content;
@@ -544,7 +501,13 @@ i {
   font-weight: 400;
   line-height: normal;
 }
-
+.margin{
+  margin-left: 10vw;
+  margin-bottom: 5vh;
+}
+.width{
+  width: 100vw;
+}
 @media (min-width: 320px) and (max-width: 480px) {
   * {
     margin: 0;
@@ -555,7 +518,13 @@ i {
     justify-content:space-between;
     width: 100vw;
 }
+.flex-features{
+  margin-left: 7vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
 
+}
 .para1{
 display: flex;
 width: 50vw;
@@ -1034,6 +1003,14 @@ width: 50vw;
   body {
     overflow-x: hidden;
   }
+  
+.flex-features{
+  margin-left: 7vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100vw;
+
+}
   .cont1{
     margin-top: 3vh;
   margin-bottom: 3vh;
