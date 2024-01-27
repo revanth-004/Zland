@@ -667,9 +667,10 @@ i {
     margin-top: 30px;
     margin-left: 7.5vw;
   }
-  .problem-video > img {
+  .problem-video > .img {
     width: 100vw;
     height: 200px;
+    border-radius: 20px;
   }
 
   .problem-text {
