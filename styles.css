@@ -260,14 +260,14 @@ body {
 }
 
 .testimonals-container1 {
-  transform: translate(25%, 10%);
+  transform: translate(35%, 10%);
   margin: 80px 10px;
   width: 842.592px;
   height: 313.059px;
   border-radius: 25.254px;
   background: #fff;
   display: flex;
-  box-shadow: 3.946px 7.892px 23.676px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
 
 .testimonals-card {
@@ -284,6 +284,23 @@ body {
   border-radius: 50%;
   border: 5.524px solid #fff;
   margin: 60px 40px;
+}
+.flex-features{
+margin-left: 10vw;
+width: 90vw;
+
+}
+.cont1{
+  margin-top: 3vh;
+margin-bottom: 3vh;
+color: #4a4e54;
+font-family: "DM Sans";
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+display: flex;
+gap: 4vw;
 }
 .card-info {
   display: flex;
@@ -316,6 +333,15 @@ body {
   line-height: 14.205px; /* 75% */
 }
 .testimonals-heading {
+  text-align: center;
+  color: #6f6c90;
+  font-family: "DM Sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.features-heading{
   text-align: center;
   color: #6f6c90;
   font-family: "DM Sans";
@@ -617,7 +643,7 @@ i {
     height: 15px;
   }
 
-  .title-img > img {
+  .title-image > img {
     width: 140px;
     height: 140px;
     flex-shrink: 0;
@@ -664,7 +690,7 @@ i {
   }
 
   .by {
-    margin-left: 160px;
+    margin-left: 180px;
   }
 
   .problem-title {
@@ -749,10 +775,11 @@ i {
     font-weight: 500;
     line-height: normal;
     text-align: center;
+    margin-left: 8%;
   }
   .faq-container {
-    margin-left: 20px;
-    max-width: 95vw;
+    margin-left: 10vw;
+    max-width: 90vw;
   }
 
   .faq {
@@ -764,6 +791,10 @@ i {
     padding: 30px;
     position: relative;
     transition: 0.3s ease;
+  }
+  #features{
+    height: fit-content;
+    margin-bottom: 10vh;
   }
   i {
     color: #418ff4;
@@ -918,6 +949,17 @@ i {
   .testimonals-heading {
     text-align: center;
     color: #6f6c90;
+    margin-left: 8%;
+    font-family: "DM Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .features-heading{
+    text-align: center;
+    color: #6f6c90;
+    margin-left: 8%;
     font-family: "DM Sans";
     font-size: 30px;
     font-style: normal;
@@ -925,14 +967,12 @@ i {
     line-height: normal;
   }
   .testimonals-container1 {
-    transform: translate(0, 10%);
-    margin: 60px 20px;
+  transform: translate(7%, 0%);
     width: 90vw;
     height: 25vh;
     border-radius: 25.254px;
     background: #fff;
     display: flex;
-    box-shadow: 3.946px 7.892px 23.676px 0px rgba(0, 0, 0, 0.25);
   }
 
   .testimonals-card {
@@ -984,5 +1024,12 @@ i {
   }
   body {
     overflow-x: hidden;
+  }
+  .cont1{
+    margin-top: 3vh;
+  margin-bottom: 3vh;
+  color: #4a4e54;
+  font-family: "DM Sans";
+  font-size: 20px;
   }
 }
