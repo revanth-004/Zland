@@ -1194,7 +1194,7 @@ i {
     margin-top: 10px;
     color: #6f6c90;
     font-family: "DM Sans";
-    font-size: 16px;
+    font-size: clamp(12px,16px,18px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1255,6 +1255,7 @@ i {
 
   .benifits-content {
     display: flex;
+    max-width: fit-content;
     justify-content: space-around;
     flex-wrap: wrap;
   }
