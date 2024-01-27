@@ -170,7 +170,7 @@ body {
 }
 
 .by {
-  margin-left: 380px;
+  margin-left: 30vw;
 }
 
 .problem-title {
@@ -690,7 +690,7 @@ i {
   }
 
   .by {
-    margin-left: 180px;
+    margin-left: 60vw;
   }
 
   .problem-title {
@@ -885,6 +885,7 @@ i {
     display: flex;
     justify-content: center;
     gap: 5vw;
+    margin-left: 10vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
@@ -917,7 +918,8 @@ i {
   .flexfoot > ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    align-items: center;
     gap: 20px;
   }
 
