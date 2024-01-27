@@ -290,7 +290,8 @@ width: 400px;
 }
 .flex-features{
 margin-left: 10vw;
-width: 90vw;
+margin-right: 10vw;
+    width: 85vw;
 
 }
 .cont1{
@@ -1308,6 +1309,7 @@ i {
   #features{
     height: fit-content;
     margin-bottom: 10vh;
+    
   }
   i {
     color: #418ff4;
@@ -1481,11 +1483,12 @@ i {
     font-weight: 500;
     line-height: normal;
   }
+  
   .testimonals-container1 {
-  transform: translate(5%, 0%);
+  transform: translate(0%, 0%);
     width: 80vw;
     height: 25vh;
-    margin-left: 5vw;
+    margin-left: 10vw;
     border-radius: 25.254px;
     background: #fff;
     display: flex;
@@ -1500,8 +1503,8 @@ i {
   }
 
   .card-image {
-    width: 50%;
-    height: 60%;
+    width: 35%;
+    height: 50%;
     border-radius: 50%;
     border: 3px solid #fff;
     margin: 6vh 10vw;
