@@ -551,7 +551,7 @@ i {
   }
   .navbar {
     height: 9vh;
-    width: 110vw;
+    width: 115vw;
   }
   .navbar-logo > h1 {
     font-size: 10px;
@@ -635,6 +635,7 @@ i {
     display: flex;
     flex-direction: row;
     height: fit-content;
+    width: 115vw;
   }
 
   .rating {
@@ -658,13 +659,13 @@ i {
     margin-top: 50%;
     height: fit-content;
     flex-wrap: wrap;
-    width: 110vw;
+    width: 115vw;
     background: #f3f3f3;
   }
 
   .problem-video {
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 7.5vw;
   }
   .problem-video > img {
     width: 100vw;
@@ -672,7 +673,7 @@ i {
   }
 
   .problem-text {
-    margin-left: 20px;
+    margin-left: 7.5vw;
     margin-top: 10px;
   }
 
@@ -690,7 +691,7 @@ i {
   }
 
   .by {
-    margin-left: 55vw;
+    margin-left: 60vw;
   }
 
   .problem-title {
@@ -726,7 +727,7 @@ i {
   #benefits {
     height: fit-content;
     margin-top: 40px;
-    width: 110vw;
+    width: 115vw;
   }
   .benifits-heading {
     text-align: center;
@@ -891,7 +892,7 @@ i {
   }
   .footer {
     background: #62b7fd;
-    width: 110vw;
+    width: 115vw;
     height: 272px;
   }
 
@@ -969,9 +970,10 @@ i {
     line-height: normal;
   }
   .testimonals-container1 {
-  transform: translate(7%, 0%);
+  transform: translate(5%, 0%);
     width: 90vw;
     height: 25vh;
+    margin-left: 5vw;
     border-radius: 25.254px;
     background: #fff;
     display: flex;
