@@ -1,9 +1,187 @@
-*{
+* {
   margin: 0px;
   box-sizing: border-box;
   padding: 0px;
-  
 }
+
+body {
+  overflow-x: hidden;
+}
+.zland-font {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  word-spacing: 4px;
+}
+
+.navbar {
+  height: 10vh;
+  width: 100vw;
+}
+
+.navbar-item {
+  display: flex;
+  list-style: none;
+  align-items: center;
+
+  box-shadow: 0px 9.261px 25.93px 0px rgba(20, 20, 43, 0.05);
+}
+
+.navbar-logo {
+  margin: 5px 20px 5px 5px;
+  margin-left: 2vw;
+}
+.navbar-logo > img {
+  height: 6vh;
+}
+.navbar-logo > h1 {
+  font-size: 1rem;
+}
+
+.navbar-cta {
+  margin-left: 70vw;
+}
+.download-btn {
+  padding: 5px 15px;
+  display: inline-flex;
+  border-radius: 25px;
+  outline: none;
+  border: none;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  font-size: 1rem;
+  /* 100% */
+  background: #418ff4;
+}
+.google-play-logo {
+  height: 25px;
+  width: 25px;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-cta {
+    display: none;
+  }
+  .navbar-logo > img {
+    height: 5vh;
+  }
+}
+
+/*============================================================*/
+
+.home-page {
+  width: 100vw;
+  display: flex;
+  overflow: hidden;
+}
+.home-text {
+  width: 50vw;
+  margin-top: 10vh;
+  margin-left: 10vw;
+}
+
+.home-title {
+  color: var(--Neutral-800, #170f49);
+  font-size: 50px;
+  line-height: 65px;
+  word-spacing: 6px;
+}
+.home-subtitle {
+  margin: 2vh 0;
+  color: var(--Neutral-600, #6f6c90);
+  font-weight: 400;
+}
+.home-rating {
+  height: 30px;
+}
+.home-btn {
+  margin: 2vh 0;
+}
+.home-img {
+  overflow: hidden;
+}
+.home-illustration {
+  margin: 15vh;
+  height: 400px;
+  transform: rotate(40deg);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .home-text {
+    width: 100vw;
+    margin-top: 5vh;
+    margin-left: 5vw;
+  }
+  .home-title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .home-img {
+    display: none;
+  }
+}
+
+/*============================================================*/
+
+.problem-page {
+  display: flex;
+  background-color: #f3f3f3;
+}
+.problem-video {
+  margin: 30px;
+}
+.problem-container {
+  margin: 60px;
+}
+.problem-title {
+  color: #000;
+  line-height: 30px;
+}
+.problem-text {
+  margin: 30px 0;
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #6f6c90;
+  font-family: "Tajawal", sans-serif;
+}
+.problem-founder {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 50%;
+}
+.designation {
+  font-weight: 400;
+}
+.youtube-mobile {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .problem-page {
+    display: block;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .problem-video {
+    margin: 30px 10px;
+  }
+  .youtube-mobile {
+    display: block;
+  }
+  .youtube-desktop {
+    display: none;
+  }
+  .problem-founder {
+    margin-left: 30%;
+  }
+  .problem-container {
+    margin: 30px;
+  }
+}
+
 
 #benefits{
   height: fit-content;
@@ -20,6 +198,7 @@ font-size: 3rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+color: #3c3c3c;
 
 }
 .benifits-content{
@@ -47,6 +226,8 @@ line-height: normal;
   font-weight: 500;
   line-height: normal;
   width: 30vw;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
 
 }
 .text{
@@ -69,11 +250,11 @@ text-align: center;
 
 
 .flex-features{
-  margin-left: 7vw;
+  margin-left: 10vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100vw;
-    grid-column-gap: 5vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80vw;
+    margin-right: 10vw;
 
 }
 .cont1{
@@ -81,44 +262,50 @@ text-align: center;
 margin-bottom: 3vh;
 color: #3c3c3c;
 font-family: "DM Sans";
-font-size: 1.5rem;
+font-size: 2rem;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
-display: flex;
-gap: 4vw;
 }
-
+#testimonals{
+  background-color: #f3f3f3;
+}
 .testimonals-heading {
   text-align: center;
-  color: #6f6c90;
+  
+color: #3c3c3c;
   font-family: "DM Sans";
-  font-size: 50px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .features-heading{
   text-align: center;
-  color: #6f6c90;
+  color: #3c3c3c;
   font-family: "DM Sans";
-  font-size: 50px;
+  font-size: 3rem;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 #features {
-  height: 100vh;
+  height: fit-content;
+  margin-bottom: 10vh;
   width: 100vw;
 }
 #faq {
   height: fit-content;
+  width: 100vw;
+  padding-top: 10vw;
+  padding-bottom: 5vw;
+  background-color: #f3f3f3;
 }
 
 .faq-heading {
-  color: #6f6c90;
   font-family: "DM Sans";
-  font-size: 50px;
+  font-size: 3rem;
+  color: #3c3c3c;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -224,81 +411,33 @@ i {
   width: 50px;
   height: 50px;
 }
+
 .download {
   display: flex;
-  justify-content: center;
-  gap: 5vw;
+  justify-content: space-between;
   margin-top: 5vh;
   margin-bottom: 5vh;
+  width: 90vw;
 }
 .footer {
   background: #62b7fd;
   width: 100vw;
-  height: 272px;
-}
-
-.logotext {
-  color: #fff;
-  text-align: center;
-  font-family: "DM Sans";
-  font-size: 16.769px;
-  font-style: normal;
-  font-weight: 500;
-  margin-top: 15px;
-  line-height: normal;
-  margin-left: -1px;
-}
-
-.flexfoot {
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-
-.flexfoot > ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  gap: 30px;
-}
-
-.ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  margin-top: 5vh;
-  color: #fff;
-  text-align: center;
-  font-family: "DM Sans";
-  font-size: 12.769px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-.copyright {
-  text-align: center;
-  margin-top: 10vh;
-  color: #fff;
-  font-family: "DM Sans";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  height: fit-content;
 }
 .margin{
-  margin-left: 10vw;
+  margin-left: 5vw;
   margin-bottom: 5vh;
 }
 .width{
-  width: 100vw;
+  width: 90vw;
 }
 @media (min-width: 320px) and (max-width: 480px) {
   * {
     margin: 0;
     padding: 0;
+  }
+  .block{
+    display: none;
   }
   .beneflex{
     display: flex;
@@ -306,10 +445,11 @@ i {
     width: 100vw;
 }
 .flex-features{
-  margin-left: 7vw;
+  margin-left: 10vw;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100vw;
+    grid-template-columns: 1fr  1fr;
+    width: 80vw;
+    margin-right: 10vw;
 
 }
 .para1{
@@ -354,7 +494,7 @@ width: 50vw;
   }
   .faq-container {
     margin-left: 10vw;
-    max-width: 90vw;
+    max-width: 80vw;
   }
 
   .faq {
@@ -369,7 +509,8 @@ width: 50vw;
   }
   #features{
     height: fit-content;
-    margin-bottom: 10vh;
+    width: 100vw;
+    margin-bottom: 7vh;
   }
   i {
     color: #418ff4;
@@ -458,16 +599,15 @@ width: 50vw;
   }
   .download {
     display: flex;
-    justify-content: center;
-    gap: 5vw;
-    margin-left: 10vw;
+    justify-content: space-around;
+    width: 100vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
   .footer {
     background: #62b7fd;
-    width: 115vw;
-    height: 272px;
+    width: 100vw;
+    height:fit-content;
   }
 
   .logotext {
@@ -501,8 +641,7 @@ width: 50vw;
   .ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 25px;
+    justify-content: space-around;
     margin-top: 5vh;
     color: #fff;
     text-align: center;
@@ -542,63 +681,6 @@ width: 50vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-  }
-  .testimonals-container1 {
-  transform: translate(5%, 0%);
-    width: 90vw;
-    height: 25vh;
-    margin-left: 5vw;
-    border-radius: 25.254px;
-    background: #fff;
-    display: flex;
-  }
-
-  .testimonals-card {
-    width: 40vw;
-    height: 25vh;
-    flex-shrink: 0;
-    border-radius: 25.254px 90px 0px 25.254px;
-    background: #418ff4;
-  }
-
-  .card-image {
-    width: 110px;
-    height: 110px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    margin: 4vh 6vw;
-  }
-  .card-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 10px;
-  }
-  .card-title {
-    transform: translate(0, 10px);
-    color: var(--Dark, #050505);
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.881px; /* 106.667% */
-  }
-  .card-text {
-    margin-top: 20px;
-    color: #6f6c90;
-    font-family: Manrope;
-    font-size: 10.151px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 20.881px; /* 208.696% */
-  }
-  .card-name {
-    color: #222;
-    font-family: Manrope;
-    font-size: 10.941px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 14.205px; /* 75% */
   }
   body {
     overflow-x: hidden;
