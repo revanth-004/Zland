@@ -265,11 +265,11 @@ body {
 
 
 .flex-features {
-  margin-left: 10vw;
+  margin-left: 5vw;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 80vw;
-  margin-right: 10vw;
+  width: 86vw;
+  margin-right: 5vw;
 
 }
 
@@ -537,11 +537,11 @@ i {
   }
 
   .flex-features {
-    margin-left: 10vw;
+    margin-left: 5vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 80vw;
-    margin-right: 10vw;
+    width: 86vw;
+    margin-right: 5vw;
 
   }
 
@@ -591,8 +591,8 @@ i {
   }
 
   .faq-container {
-    margin-left: 10vw;
-    max-width: 80vw;
+    margin-left: 5vw;
+    max-width: 86vw;
   }
 
   .faq {
@@ -741,7 +741,7 @@ i {
     margin-left: 7vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 96vw;
+    width: 93vw;
 
   }
 
