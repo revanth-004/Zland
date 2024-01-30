@@ -445,11 +445,10 @@ i {
 
 .download {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  width: 90%;
-  gap: 20vw;
+  width:100%;
 }
 
 .footer {
