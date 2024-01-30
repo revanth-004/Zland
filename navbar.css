@@ -18,7 +18,7 @@ body {
 
 .navbar {
   height: 10vh;
-  width: 96vw;
+  width: 100%;
 }
 
 .navbar-item {
@@ -76,7 +76,7 @@ body {
   box-shadow: 0px 0px 0px 0px rgba(20, 20, 43, 0.05);
 }
 .home-page {
-  width: 96vw;
+  width: 100%;
   display: flex;
   overflow: hidden;
 }
@@ -114,9 +114,9 @@ body {
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .home-text {
-    width: 96vw;
+    width: 95%;
     margin-top: 5vh;
-    margin-left: 5vw;
+    margin-left: 5%;
   }
   .home-title {
     text-align: left;
@@ -194,7 +194,7 @@ body {
 }
 #benefits {
   height: fit-content;
-  width: 96vw;
+  width: 100%;
   margin-bottom: 10vh;
 }
 
@@ -217,7 +217,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 96vw;
+  width: 100%;
 }
 
 .benifits-content>.center {
@@ -257,7 +257,7 @@ body {
 .para1 {
   display: flex;
 
-  width: 96vw;
+  width:100%;
   justify-content: space-around;
 
 }
@@ -265,11 +265,11 @@ body {
 
 
 .flex-features {
-  margin-left: 5vw;
+  margin-left: 5%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 86vw;
-  margin-right: 5vw;
+  width: 90%;
+  margin-right: 5%;
 
 }
 
@@ -314,12 +314,12 @@ body {
 #features {
   height: fit-content;
   margin-bottom: 10vh;
-  width: 96vw;
+  width: 100%;
 }
 
 #faq {
   height: fit-content;
-  width: 96vw;
+  width: 100%;
   padding-top: 2vw;
   padding-bottom: 5vw;
   background-color: #EDEDED;
@@ -447,13 +447,13 @@ i {
   justify-content: center;
   margin-top: 5vh;
   margin-bottom: 5vh;
-  width: 90vw;
+  width: 90%;
   gap: 20vw;
 }
 
 .footer {
   background: #62b7fd;
-  width: 96vw;
+  width: 100%;
   height: 272px;
 }
 
@@ -517,7 +517,7 @@ i {
 }
 
 .width {
-  width: 90vw;
+  width: 90%;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -533,15 +533,15 @@ i {
   .beneflex {
     display: flex;
     justify-content: space-between;
-    width: 96vw;
+    width: 100%;
   }
 
   .flex-features {
-    margin-left: 5vw;
+    margin-left: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 86vw;
-    margin-right: 5vw;
+    width: 90%;
+    margin-right: 5%;
 
   }
 
@@ -559,7 +559,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 80vw;
+    width: 80%;
   }
 
   .benifits-heading {
@@ -592,7 +592,7 @@ i {
 
   .faq-container {
     margin-left: 5vw;
-    max-width: 86vw;
+    max-width: 90%;
   }
 
   .faq {
@@ -608,7 +608,7 @@ i {
 
   #features {
     height: fit-content;
-    width:96vw;
+    width:100%;
     margin-bottom: 7vh;
   }
 
