@@ -5,7 +5,7 @@
 }
 
 body {
- width: 96vw; 
+ width: 100%; 
 }
 .zland-font {
   font-feature-settings: "clig" off, "liga" off;
