@@ -5,7 +5,7 @@
 }
 
 body {
-  
+ width: 96vw; 
 }
 .zland-font {
   font-feature-settings: "clig" off, "liga" off;
@@ -18,7 +18,7 @@ body {
 
 .navbar {
   height: 10vh;
-  width: 100vw;
+  width: 96vw;
 }
 
 .navbar-item {
@@ -217,7 +217,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100vw;
+  width: 96vw;
 }
 
 .benifits-content>.center {
@@ -314,7 +314,7 @@ body {
 #features {
   height: fit-content;
   margin-bottom: 10vh;
-  width: 100vw;
+  width: 96vw;
 }
 
 #faq {
@@ -533,7 +533,7 @@ i {
   .beneflex {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 96vw;
   }
 
   .flex-features {
@@ -705,8 +705,8 @@ i {
 
   .download {
     display: flex;
-    justify-content: space-evenly;
-    width: 100vw;
+    justify-content: space-around;
+    width: 96vw;
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
@@ -741,7 +741,7 @@ i {
     margin-left: 7vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 100vw;
+    width: 96vw;
 
   }
 
