@@ -529,6 +529,13 @@ i {
     padding: 0;
   }
 
+.flexfoot>ul {
+  list-style: none;
+  display: flex;
+gap:2rem;
+  align-items: center;
+ 
+}
   .block {
     display: none;
   }
