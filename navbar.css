@@ -484,9 +484,8 @@ i {
 .flexfoot>ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-width:30%;
  
 }
 
