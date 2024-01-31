@@ -533,6 +533,7 @@ i {
   list-style: none;
   display: flex;
 gap:5vw;
+margin-top:1rem;
   align-items: center;
  
 }
