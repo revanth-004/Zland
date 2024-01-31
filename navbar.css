@@ -15,6 +15,9 @@ body {
   line-height: 20px;
   word-spacing: 4px;
 }
+.a{margin:0;
+padding:0;
+}
 
 .navbar {
   height: 10vh;
