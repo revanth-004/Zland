@@ -292,7 +292,8 @@ margin-left:5%;
 }
 
 #testimonals {
-  padding-top: 2VH;
+  padding-top: 2vh;
+padding-left:2vw;
   background-color: #EDEDED;
 }
 
