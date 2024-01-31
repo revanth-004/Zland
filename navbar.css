@@ -532,7 +532,7 @@ i {
 .flexfoot>ul {
   list-style: none;
   display: flex;
-gap:2rem;
+gap:5vw;
   align-items: center;
  
 }
